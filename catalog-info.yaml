@@ -2,15 +2,13 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: documented-system-test
-  title: Documented System HTML Doc (PoC)
+  title: Documented system test
   description: Example of a documented System
-  annotations:
-    backstage.io/techdocs-ref: dir:.
-  tags:
-    - dev
-    - int
+  tags: []
 spec:
-  type: documentation
-  owner: team-a
-  lifecycle: in-development
-  domain: in-car
+  owner: default/TEAM-A
+  lifecycle: experimental
+  type: service
+  fullAccess: []
+  limitedAccess: []
+  blockedAccess: []
