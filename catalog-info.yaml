@@ -5,6 +5,8 @@ metadata:
   name: documented-system-test
   title: Documented system test
   description: Example of a documented System
+  annotations:
+    backstage.io/techdocs-ref: dir:.
   tags: []
 spec:
   owner: default/TEAM-A
